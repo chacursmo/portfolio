@@ -124,8 +124,8 @@ h2.text-for-apps {
 .row-of-apps {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: stretch;
+    justify-content: center;
+    align-items: center;
 }
 
 figure {
@@ -135,11 +135,11 @@ figure {
 .individual-app {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     font-size: 2em;
     color: #2d3c49;
     padding-bottom: 10px;
-    width: 100%;
+    padding-right: 10px;
 }
 p {
     margin: 0;
