@@ -8,6 +8,9 @@
     body {
 	margin: 0 25% 0 25%;
     }
+    .img-circle {
+	margin: 0;
+    }
 }
 
 html {
@@ -136,7 +139,7 @@ figure {
     font-size: 2em;
     color: #2d3c49;
     padding-bottom: 10px;
-
+    width: 100%;
 }
 p {
     margin: 0;
@@ -157,11 +160,14 @@ p {
     font-size: 1rem;
 }
 
+
+
 .img-circle {
     display: flex;
     flex-wrap: wrap;
     border-radius: 10px;
-    margin: 0;
+    margin: auto;
+
 }
 
 .main-picture {
