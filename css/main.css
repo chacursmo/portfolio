@@ -2,7 +2,11 @@
     .container {
 	width: 360px;
     }
-	
+    .app-spotlight {
+	flex-direction: column;
+    }
+
+
 }
 
 @media screen and (min-width: 800px){
@@ -26,14 +30,23 @@ body {
     margin: 0;
 }
 
+figure, p {
+    margin: 0;
+    width: 100%;
+}
+
+section {
+    padding-top: 10px;
+}
 .container {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 
 img, embed,
@@ -108,29 +121,22 @@ h3.job-name {
    text-transform: uppercase;  
 }
 
-hr.style {
+.style {
 	 border: 0;
 	 height: 0;
 	 box-shadow: 0 0 10px 1px #7d97ad;
-	 }
-
-figure.main-picture {
-    margin: 30px 0 0 0;
-    padding-left: auto;
-    padding-right: auto;
 }
+
 
 .text-for-apps {
     width: 1000px;
     margin-right: auto;
-	       
     margin-left: auto;
 }
 
 h2.text-for-apps {
 	       color: #7d97ad;
 	       font-weight: 300;
-
 	}       
 
 
@@ -141,9 +147,6 @@ h2.text-for-apps {
     align-items: center;
 }
 
-figure {
-    margin: 0;
-}
 
 .individual-app {
     display: flex;
@@ -154,9 +157,6 @@ figure {
     padding-bottom: 10px;
     padding-left: 5px;
     padding-right: 5px;
-}
-p {
-    margin: 0;
 }
 
 .app-title {
@@ -186,6 +186,7 @@ p {
 }
 
 .main-picture {
+
     align-items: center;
 }
 
