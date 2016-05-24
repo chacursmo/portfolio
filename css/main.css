@@ -3,7 +3,6 @@
 	margin: 0 auto;
 	max-width: 360px;
     }
-
 }
 
 @media screen and (min-width: 800px){
@@ -13,6 +12,10 @@
 	margin: 0 auto;
 	padding: 0 10px;
 	border-radius: 10px;
+    }
+
+    .individual-app {
+	width: 33.3333%;
     }
 }
 
@@ -35,6 +38,7 @@ figure, p {
 section {
     padding-top: 10px;
 }
+
 .container {
     display: flex;
     flex-direction: column;
@@ -51,53 +55,68 @@ object, video {
 	max-width: 100%;
 }
 
+.img-circle {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin: auto;
+}
+
 .col-1 {
        width: 8.33333%;
-       }
+}
+
 .col-2 {
        width: 16.66666%;
-       }
+}
+
 .col-3 {
        width: 25%;
-       }
+}
+
 .col-4 {
        width: 33.333333%;
-       }
+}
+
 .col-5 {
        width: 41.666666%;
-       }
+}
+
 .col-6 {
        width: 50%;
-       }
+}
 .col-7 {
        width: 58.3333333%;
-       }
+}
+
 .col-8 {
        width: 66.6666666%;
-       }
+}
+
 .col-9 {
        width: 75%;
-       }
+}
+
 .col-10 {
        width: 83.33333%
-       }
+}
+
 .col-11 {
        width: 91.66666%
-       }
+}
+
 .col-12 {
        width: 100%;
-       }
-
+}
 
 .logo {
     margin-top: 20px;
     width: 200px;
     margin-left: 20px;
-
 }
+
 .name-title {
     color: #2d3c49;
-
 }
 
 .owner-name {
@@ -115,27 +134,18 @@ object, video {
    flex-wrap: wrap;
    justify-content: flex-end;
    text-transform: uppercase;
-
 }
 
 .style {
-	 border: 0;
-	 height: 0;
-	 box-shadow: 0 0 10px 1px #7d97ad;
+    border: 0;
+    height: 0;
+    box-shadow: 0 0 10px 1px #7d97ad;
 }
-
 
 .text-for-apps {
-    width: 1000px;
-    margin-right: auto;
-    margin-left: auto;
+    font-size: 2em;
+    color: #7d97ad;
 }
-
-h2.text-for-apps {
-	       color: #7d97ad;
-	       font-weight: 300;
-	}
-
 
 .row-of-apps {
     display: flex;
@@ -144,16 +154,12 @@ h2.text-for-apps {
     align-items: center;
 }
 
-
 .individual-app {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 2em;
     color: #2d3c49;
     padding-bottom: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
 }
 
 .app-title {
@@ -163,35 +169,18 @@ h2.text-for-apps {
     line-height: 1em;
     margin: 0;
     padding-top: 5px;
+    font-size: 2em;
 }
 
 .link-text {
     display: flex;
     justify-content: center;
-    font-weight: 100;
     font-size: 1rem;
 }
-
-
-
-.img-circle {
-    display: flex;
-    flex-wrap: wrap;
-    border-radius: 10px;
-    margin: auto;
-
-}
-
-.main-picture {
-
-    align-items: center;
-}
-
 
 .right-align-footer {
     display: flex;
     justify-content: flex-end;
-    padding-top: 1em;
     text-transform: uppercase;
-    padding-right: 1em;
+    padding: 1em 1em 0 0;
 }
