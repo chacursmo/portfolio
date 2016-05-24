@@ -89,35 +89,33 @@ object, video {
        }
 
 
-.name {
-      display: flex;
-      justify-content: flex-end;
-}
-
-.title {
-       display: flex;
-       justify-content: flex-end;
-       text-transform: uppercase;
-}
-
 .logo {
     margin-top: 20px;
     width: 200px;
     margin-left: 20px;
 
 }
-       
-h1.owner-name {
-    font-size: 3em;
-   padding: 5px;
-   margin-bottom: 0;
+.name-title {
+    color: #2d3c49;
 
 }
 
-h3.job-name {
-   margin-top: 0;
+.owner-name {
+    font-size: 3em;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.job-name {
    padding: 5px;
    font-size: 1.5em;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-end;
+   text-transform: uppercase;
+
 }
 
 .style {
@@ -136,7 +134,7 @@ h3.job-name {
 h2.text-for-apps {
 	       color: #7d97ad;
 	       font-weight: 300;
-	}       
+	}
 
 
 .row-of-apps {
@@ -197,9 +195,3 @@ h2.text-for-apps {
     text-transform: uppercase;
     padding-right: 1em;
 }
-
-.name-title {
-    color: #2d3c49;
-    margin-top: 1em;
-}
-
