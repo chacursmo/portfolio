@@ -1,6 +1,8 @@
 @media (max-width: 450px) {
+    
     body {
 	margin: 0;
+	width: 100%;
     }
 }
 
