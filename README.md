@@ -1,3 +1,5 @@
 #Portfolio Resume Project
 
-Using HTML / CSS / and a bevy of knowledge
+Using HTML / CSS / and responsive design
+
+Initial presentable form with plans on future updates.
